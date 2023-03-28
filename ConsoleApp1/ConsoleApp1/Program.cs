@@ -13,6 +13,7 @@ namespace ConsoleApp1
         static int plus(int A, int B) => A + B;
         static int minus(int A, int B) => A - B;
         static double devide(int A, int B) => A / B;
+        static int mult (int A,int B)=>A * B;
         static void Main(string[] args)
         {
             int res = 0;
@@ -47,6 +48,7 @@ namespace ConsoleApp1
 
                     case 4:
                         {
+                            res = mult(A,B);
                             break;
                         }
                     default:
@@ -55,7 +57,7 @@ namespace ConsoleApp1
                             break;
                         }
                 }
-
+                Console.WriteLine("Ответ: " + res);
             }
         }
     }

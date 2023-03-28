@@ -11,7 +11,7 @@ namespace ConsoleApp1
     internal class Program
     {
         static int plus(int A, int B) => A + B;
-        
+        static int minus(int A, int B) => A - B;
         static void Main(string[] args)
         {
             int res = 0;
@@ -33,6 +33,7 @@ namespace ConsoleApp1
                         }
                     case 2:
                         {
+                            res = minus(A, B);   
                             break;
                         }
                     case 3:

@@ -12,6 +12,7 @@ namespace ConsoleApp1
     {
         static int plus(int A, int B) => A + B;
         static int minus(int A, int B) => A - B;
+        static double devide(int A, int B) => A / B;
         static void Main(string[] args)
         {
             int res = 0;
@@ -38,6 +39,8 @@ namespace ConsoleApp1
                         }
                     case 3:
                         {
+                            double res1 = devide(A,B);
+                            Console.WriteLine("Ответ>"+res1);
                             break;
 
                         }

@@ -10,7 +10,7 @@ namespace ConsoleApp1
 
     internal class Program
     {
-        static int plus(int A, int B) => A + B;
+        static int plus(int A, int B) => A - B;
         
         static void Main(string[] args)
         {

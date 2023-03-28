@@ -10,10 +10,8 @@ namespace ConsoleApp1
 
     internal class Program
     {
-        static int Add(int A, int B)
-        {
-            return A + B;
-        }
+        static int plus(int A, int B) => A + B;
+        
         static void Main(string[] args)
         {
             int res = 0;
@@ -30,7 +28,7 @@ namespace ConsoleApp1
                 {
                     case 1:
                         {
-                            res = Add(A,B);
+                            res = plus(A,B);
                             break;
                         }
                     case 2:
